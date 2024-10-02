@@ -20,12 +20,11 @@ class Pila:
         else:
             print("La pila está vacía")
 
-# Ejemplo de uso:
 pila = Pila()
 pila.apilar(1)
 pila.apilar(2)
 pila.apilar(3)
 
-print(pila.ver_cima())  # Imprime: 3
-print(pila.desapilar())  # Imprime: 3
-print(pila.esta_vacia())  # Imprime: False
+print(pila.ver_cima())  
+print(pila.desapilar()) 
+print(pila.esta_vacia()) 
